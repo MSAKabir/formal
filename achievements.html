@@ -35,16 +35,13 @@ body {
   font-size: 17px;
 }
 
-.topnav a:hover, .dropbtn{
+.topnav a:hover{
   background-color:  rgb(0,20,2);
-  color:rgb(150,150,100);
+  color: rgb(150,150,100);
 }
 
 
-.topnav a.active {
-  background-color: rgb(150,150,100);
-  color: rgb(20,20,20);
-}
+
 
 
 .pro{
@@ -60,18 +57,19 @@ body {
 
 
 
-a{
+.pro a{
   color:rgb(80,80,120);
 }
 
-a:visited{
+.pro a:visited{
   color:rgb(80,80,120);
 }
 
-
-.topnav a:visited{
-  color:rgb(200,200,200);
+.topnav a.active {
+  background-color: rgb(150,150,100);
+  color:rgb(20,20,20);
 }
+
 
 
 
@@ -81,7 +79,7 @@ a:visited{
 
 
 @media screen and (max-width: 1200px) {
-  .topnav a:not(:nth-child(6)),  .dropbtn {
+  .topnav a:not(:nth-child(6)) {
   	
   	display: none;
   }
@@ -103,16 +101,15 @@ a:visited{
     display: block;
     text-align: left;
   }
+}
+
+@media screen and (max-width: 800px) {
+body {
+
+  font-size: 13px;
+}
+}
   
-
-
-
-
-
-
-
-
-
 
 
 
@@ -134,7 +131,7 @@ a:visited{
 
  </head>
 
- <body style="background-color: rgb(255,255,240);color: rgb(56,0,0);" >
+ <body style="background-color: rgb(255,255,240);color: rgb(56,0,0);">
 
 
 
@@ -211,3 +208,4 @@ function myFunction() {
 
 
 </body>
+</html>

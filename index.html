@@ -182,6 +182,8 @@ body {
 
 <a href="contact.html">Contact</a>
 
+<a onmouseover="this.style.backgroundColor='rgb(0,0,0)'" onmouseout="this.style.backgroundColor=''" style = "color: rgb(150,170,170)" id="demo" href="" onclick="Switch()">Switch</a>
+
 
   <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 
@@ -234,6 +236,26 @@ Presently I'm working as a lecturer in the department of Electrical and Electron
 
 
 <script>
+
+
+function Switch() {
+  var a;
+  var r = confirm("Switch to Casual View ? ");
+  if (r == true) {
+   a = document.getElementById('demo');
+   a.href = "https://msakabir.github.io/AUST/";
+  } 
+
+}
+
+
+
+
+
+
+
+
+  
 function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {

@@ -240,13 +240,22 @@ Presently I'm working as a lecturer in the department of Electrical and Electron
 
 function Switch() {
   var a;
-  var r = confirm("Switch to Casual View ? ");
-  if (r == true) {
    a = document.getElementById('demo');
+  var txt = prompt("Press ' 1 ' for Google Sites or ' 2 ' for Casual View", "1");
+ 
+  if (txt === "2") {
+     //var r = confirm("Switch to Formal View ? "); 
+    //if(r == true){
    a.href = "https://msakabir.github.io/casual/";
-  } 
-
+  //}
 }
+  else if (txt === "1") {
+   //var r = confirm("Switch to Google Sites View ? "); 
+    //if(r == true){
+   a.href = "https://sites.google.com/view/msakabir";
+ // }
+}
+  }
 
 
 

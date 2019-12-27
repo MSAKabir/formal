@@ -155,7 +155,7 @@ body {
 
 <a href="contact.html">Contact</a>
 
-<a onmouseover="this.style.backgroundColor='rgb(0,0,0)'" onmouseout="this.style.backgroundColor=''" style = "color: rgb(150,170,170)" id="demo" href="" onclick="Switch()">Switch</a>
+<a onmouseover="this.style.backgroundColor='rgb(0,0,0)'" onmouseout="this.style.backgroundColor=''" style = "color: rgb(150,170,170)" id="demo" href="Switch.html" target="_blank">Switch</a>
 
 
   <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
@@ -198,6 +198,7 @@ body {
 <script>
 
 
+
 function Switch() {
   var a;
    a = document.getElementById('demo');
@@ -215,7 +216,13 @@ function Switch() {
    a.href = "https://sites.google.com/view/msakabir";
  // }
 }
+else
+{
+   window.open('', '_self', '');
+  window.close();
+}
   }
+
 
 
 

@@ -15,17 +15,23 @@
  <script type="text/javascript">
 function Switch() {
 
-  var txt = prompt("Press ' 1 ' for Google Sites or ' 2 ' for Casual View", "1");
+var txt = prompt("Press ' 1 ' for Google Sites or ' 2 ' for Casual View or ' 3 ' for Django Website", "1");
  
-  if (txt === "2") {
+if (txt === "1") {
+
+  
+    a = "https://sites.google.com/view/msakabir";
+
+}
+  else if (txt === "2") {
 
    a = "https://msakabir.github.io/casual/";
-
 }
-  else if (txt === "1") {
+  else if (txt === "3") {
 
-   a = "https://sites.google.com/view/msakabir";
+   a = "https://msakabir.herokuapp.com";
 }
+
 else
 {
    window.open('', '_self', '');

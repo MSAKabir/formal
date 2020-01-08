@@ -33,6 +33,7 @@ button {
       padding: 0.5%;
       border-radius: 5px;
       background-color: rgb(255,255,240);
+      margin-left: 35%;
     }
     #myButton2{
       display: none;
@@ -44,6 +45,7 @@ button {
       padding: 0.5%;
       border-radius: 5px;
       background-color: rgb(255,255,240);
+      margin-left: 35%;
     }
     .fa{
       color: rgb(56,0,0);
@@ -143,19 +145,26 @@ button {
   }
 
   @media screen and (max-width: 700px) {
+
 body {
   font-size: 11px;
 }
+
 button {
       font-size: 11px;
     }
+
+
+#myButton1{
+  margin-left: 25%;
+}
+
+#myButton2{
+  margin-left: 25%;
 }
 
 
-
-
-
-
+}
 
 
 
@@ -270,7 +279,7 @@ button {
 
                 </ul>
 
-
+</li>
 
 
               <li><h3>MATLAB</h3>
@@ -422,8 +431,8 @@ button {
 
 
 
-                       <center><button onclick="change1()"  id="myButton1">More <i class="fa fa-arrow-circle-down"></i></button></center>
-<center><button onclick="change2()"  id="myButton2">Hide <i class="fa fa-arrow-circle-up"></i></button></center>
+                       <button onclick="change1()"  id="myButton1">More <i class="fa fa-arrow-circle-down"></i></button>
+<button onclick="change2()"  id="myButton2">Hide <i class="fa fa-arrow-circle-up"></i></button>
 
 <div id="myDIV">
                         <li><h3>Cadence</h3>
@@ -543,13 +552,13 @@ button {
                             </ul>
 
                         </li>
-		
+		</div>
+
 
                     </ul>
 
                 </li>
-              </div>
-
+              
             </ul>
 </div>
 

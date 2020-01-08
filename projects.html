@@ -5,7 +5,7 @@
 <title>Projects</title>
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <link rel="shortcut icon" type = "image/x-icon" href = "projects.png">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 <style>
@@ -16,6 +16,38 @@ body {
   font-family: Times new roman;
    font-size: 20px;
 }
+
+button {
+      font-size: 20px;
+    }
+    #myDIV{
+      display: none;
+    }
+    #myButton1{
+      display: block;
+      width:30%;
+      margin-top: 1%;
+      margin-bottom: 1%;
+      color: rgb(56,0,0);;
+      border: 3px solid rgb(56,0,0);
+      padding: 0.5%;
+      border-radius: 5px;
+      background-color: rgb(255,255,240);
+    }
+    #myButton2{
+      display: none;
+      width:30%;
+      margin-top: 1%;
+      margin-bottom: 1%;
+      color: rgb(56,0,0);;
+      border: 3px solid rgb(56,0,0);
+      padding: 0.5%;
+      border-radius: 5px;
+      background-color: rgb(255,255,240);
+    }
+    .fa{
+      color: rgb(56,0,0);
+    }
 
 .topnav {
   top: 0;
@@ -112,9 +144,11 @@ body {
 
   @media screen and (max-width: 700px) {
 body {
-
   font-size: 11px;
 }
+button {
+      font-size: 11px;
+    }
 }
 
 
@@ -388,7 +422,10 @@ body {
 
 
 
-                        </h4></li>
+                       <center><button onclick="change1()"  id="myButton1">More <i class="fa fa-arrow-circle-down"></i></button></center>
+<center><button onclick="change2()"  id="myButton2">Hide <i class="fa fa-arrow-circle-up"></i></button></center>
+
+<div id="myDIV">
                         <li><h3>Cadence</h3>
                             <ul>
 
@@ -511,6 +548,7 @@ body {
                     </ul>
 
                 </li>
+              </div>
 
             </ul>
 </div>
@@ -554,6 +592,26 @@ function myFunction() {
   } else {
     x.className = "topnav";
   }
+}
+
+function change1()
+{
+    var elem1 = document.getElementById("myButton1");
+    var elem2 = document.getElementById("myButton2");
+    var x = document.getElementById("myDIV");
+    elem1.style.display = "none";
+    elem2.style.display = "block";
+    x.style.display = "block";   
+}
+function change2()
+{
+    var elem1 = document.getElementById("myButton1");
+    var elem2 = document.getElementById("myButton2");
+    var x = document.getElementById("myDIV");
+    elem2.style.display = "none";
+    elem1.style.display = "block";
+    x.style.display = "none";
+    
 }
 </script>
 

@@ -23,33 +23,38 @@ button {
     button:hover{
       cursor: pointer;
     }
-    #myDIV{
+    #myDIV, #myDIVa, #myDIVm, #myDIVmg{
       display: none;
     }
-    #myButton1{
+     #myButton1,  #myButton1a, #myButton1m,  #myButton1mg{
       display: block;
       width:30%;
       margin-top: 1%;
       margin-bottom: 1%;
-      color: rgb(56,0,0);;
+      color: rgb(56,0,0);
       border: 3px solid rgb(56,0,0);
       padding: 0.5%;
       border-radius: 5px;
       background-color: rgb(255,255,240);
       margin-left: 35%;
     }
-    #myButton2{
+    #myButton2, #myButton2a, #myButton2m, #myButton2mg{
       display: none;
       width:30%;
       margin-top: 1%;
       margin-bottom: 1%;
-      color: rgb(56,0,0);;
+      color: rgb(56,0,0);
       border: 3px solid rgb(56,0,0);
       padding: 0.5%;
       border-radius: 5px;
       background-color: rgb(255,255,240);
       margin-left: 35%;
     }
+    #myButton1a, #myButton1m,  #myButton1mg, #myButton2a, #myButton2m,  #myButton2mg{
+           width:auto;
+           margin-left: 2%;
+      border: 2px solid rgb(56,0,0);
+}
     .fa{
       color: rgb(56,0,0);
     }
@@ -270,15 +275,27 @@ button {
 
                   <li><h4><a href="https://shaikh-abrar-kabir.github.io/Age-Counter-with-Bangla-English-Calendar/" target="_blank">Age Counter with Bangla & English Calendar</a></h4></li>
 
-                  <li><h4><a href="https://shaikh-abrar-kabir.github.io/Sentence-Detector-for-Monophone-Model/" target="_blank">Sentence Detector for Monophone Model</a></h4></li>
+                   <li><h4><a href="https://shaikh-abrar-kabir.github.io/Audio-Mixer-with-Frequency-Converter/" target="_blank">Audio Mixer with Frequency Converter</a></h4></li>
+
+                
 
                   <li><h4><a href="https://shaikh-abrar-kabir.github.io/Sentence-Detector-for-Triphone-Model/" target="_blank">Sentence Detector for Triphone Model</a></h4></li>
 
-                  <li><h4><a href="https://shaikh-abrar-kabir.github.io/Alarm-Clock/" target="_blank">Digital Alarm Clock</a></h4></li>
+                 <button onclick="change1mg()"  id="myButton1mg">More in MATLAB GUI <i class="fa fa-arrow-circle-down"></i></button>
+<button onclick="change2mg()"  id="myButton2mg">Hide Extra of MATLAB GUI <i class="fa fa-arrow-circle-up"></i></button>
+<div id="myDIVmg"> 
+
+    <li><h4><a href="https://shaikh-abrar-kabir.github.io/Sentence-Detector-for-Monophone-Model/" target="_blank">Sentence Detector for Monophone Model</a></h4></li>
+
+                
 
                   <li><h4><a href="https://shaikh-abrar-kabir.github.io/Audio-Recorder/" target="_blank">Audio Recorder</a></h4></li>
 
-                  <li><h4><a href="https://shaikh-abrar-kabir.github.io/Audio-Mixer-with-Frequency-Converter/" target="_blank">Audio Mixer with Frequency Converter</a></h4></li>
+                    <li><h4><a href="https://shaikh-abrar-kabir.github.io/Alarm-Clock/" target="_blank">Digital Alarm Clock</a></h4></li>
+
+                 
+
+                </div>
 
                 </ul>
 
@@ -297,13 +314,19 @@ button {
 
                   <li><h4><a href="https://shaikh-abrar-kabir.github.io/Grade-Counter-for-AUST/" target="_blank">Grade Counter for AUST</a></h4></li>
 
-                  <li><h4><a href="https://shaikh-abrar-kabir.github.io/Frequency-Converter/" target="_blank">Frequency Converter</a></h4></li>
+                 
                   
                   <li><h4><a href="https://shaikh-abrar-kabir.github.io/Convert-Audio-to-8D/" target="_blank">8D Audio Converter</a></h4></li>
 
                   <li><h4><a href="https://shaikh-abrar-kabir.github.io/Video-Maker-Using-Audio-and-JPEG-PNG/" target="_blank">Video Maker using Audio and JPEG/PNG</a></h4></li>
 
-                  <li><h4><a href="https://shaikh-abrar-kabir.github.io/GIF-to-Video-Converter/" target="_blank">Video Maker using Audio and GIF</a></h4></li>
+                    <li><h4><a href="https://shaikh-abrar-kabir.github.io/GIF-to-Video-Converter/" target="_blank">Video Maker using Audio and GIF</a></h4></li>
+
+                  <button onclick="change1m()"  id="myButton1m">More in MATLAB <i class="fa fa-arrow-circle-down"></i></button>
+<button onclick="change2m()"  id="myButton2m">Hide Extra of MATLAB <i class="fa fa-arrow-circle-up"></i></button>
+<div id="myDIVm">
+
+                
 
                   <li><h4><a href="https://shaikh-abrar-kabir.github.io/Video-Cutter/" target="_blank">Video Cutter</a></h4></li>
 
@@ -318,7 +341,9 @@ button {
 
                   <li><h4><a href="https://shaikh-abrar-kabir.github.io/GIF-to-PDF-Converter/" target="_blank">GIF to PDF Converter</a></h4></li>
 
+                   <li><h4><a href="https://shaikh-abrar-kabir.github.io/Frequency-Converter/" target="_blank">Frequency Converter</a></h4></li>
 
+         </div>
                   
                 </ul>
 
@@ -350,9 +375,26 @@ button {
                             <ul>
 
 
-                                        <li><h4><a href="https://shaikh-abrar-kabir.github.io/Age-Counter-C/" target="_blank">JS, HTML</a> <a href="https://shaikh-abrar-kabir.github.io/jscalendarrun/" target="_blank" style="color: rgb(0,100,100);">(run)</a> 
+                                        <li><h4><a href="https://shaikh-abrar-kabir.github.io/Age-Counter-C/" target="_blank">JS, HTML, CSS </a> <a href="https://shaikh-abrar-kabir.github.io/jscalendarrun/" target="_blank" style="color: rgb(0,100,100);">&nbsp(run)</a>  </h4></li>
+
+                                            <li><h4><a href="https://shaikh-abrar-kabir.github.io/Age-Counter-Php/" target="_blank">PHP, HTML, CSS</a>
+                                        </h4></li>
+                                       
+
+                                            <li><h4><a href="https://shaikh-abrar-kabir.github.io/Age-Counter/" target="_blank">MATLAB</a>
                                         </h4></li>
 
+                                      
+
+                                        <li><h4><a href="https://shaikh-abrar-kabir.github.io/Age-Counter-Python/" target="_blank">PYTHON</a>
+                                        </h4></li>
+
+                                         <li><h4><a href="https://shaikh-abrar-kabir.github.io/Age-Counter-JAVA/" target="_blank">JAVA</a></h4></li>
+
+
+                                           <li><h4><a href="https://shaikh-abrar-kabir.github.io/Age-Counter-Js/" target="_blank">C</a>
+                                        </h4></li>
+                                        
                                         <li><h4><a href="https://shaikh-abrar-kabir.github.io/Age-Counter-Cpp/" target="_blank">C++</a>
                                         </h4></li>
 
@@ -362,26 +404,6 @@ button {
                                         <li><h4><a href="https://shaikh-abrar-kabir.github.io/Age-Counter-Go/" target="_blank">GO</a>
                                         </h4></li>
 
-                                        <li><h4><a href="https://shaikh-abrar-kabir.github.io/Age-Counter-JAVA/" target="_blank">JAVA</a>
-                                        </h4></li>
-
-                                  
-                           
-
-                             
-
-                                
-                                        <li><h4><a href="https://shaikh-abrar-kabir.github.io/Age-Counter-Js/" target="_blank">C</a>
-                                        </h4></li>
-
-                                        <li><h4><a href="https://shaikh-abrar-kabir.github.io/Age-Counter/" target="_blank">MATLAB</a>
-                                        </h4></li>
-
-                                        <li><h4><a href="https://shaikh-abrar-kabir.github.io/Age-Counter-Php/" target="_blank">PHP, HTML, CSS</a>
-                                        </h4></li>
-
-                                        <li><h4><a href="https://shaikh-abrar-kabir.github.io/Age-Counter-Python/" target="_blank">PYTHON</a>
-                                        </h4></li>
 
                                         <li><h4><a href="https://shaikh-abrar-kabir.github.io/Age-Counter-R/" target="_blank">R</a>
                                         </h4></li>
@@ -434,6 +456,7 @@ button {
 
 <li><h4><a href="https://drive.google.com/open?id=1f298C4ECeTXkDB0qaHkNbjGTMQjL4sOl" target="_blank">Automatic Slot Switching using PROTEUS</a></h4></li>
 
+<li><h4><a href="https://shaikh-abrar-kabir.github.io/Rectifier/" target="_blank">230V(p) AC to 15V DC converter using PSPICE</a></h4></li>
 
 
                        <button onclick="change1()"  id="myButton1">More <i class="fa fa-arrow-circle-down"></i></button>
@@ -475,6 +498,10 @@ button {
 
                                 <li><h5><a href="https://shaikh-abrar-kabir.github.io/500-kv-Steel-Self-Supporting-Transmission-Tower/" target="_blank">500-kv Steel Self-Supporting Transmission Tower</a></h5></li>
 
+                               <button onclick="change1a()"  id="myButton1a">More in Autocad (2D) <i class="fa fa-arrow-circle-down"></i></button>
+<button onclick="change2a()"  id="myButton2a">Hide Extra of Autocad (2D) <i class="fa fa-arrow-circle-up"></i></button>
+<div id="myDIVa">
+
                                 <li><h5><a href="https://shaikh-abrar-kabir.github.io/Schemaic-Diagram-of-Transformer-and-Three-Phase-Connections/" target="_blank">Schemaic Diagram of Transformer and Three Phase Connections</a></h5></li>
 
                                 <li><h5><a href="https://shaikh-abrar-kabir.github.io/Rotary-Converter-and-Full-Wave-Bridge-Rectifier/" target="_blank">Rotary Converter and Full-Wave Bridge Rectifier</a></h5></li>
@@ -486,6 +513,8 @@ button {
                                 <li><h5><a href="https://shaikh-abrar-kabir.github.io/2-km-FM-Transmitter/" target="_blank">2 km FM Transmitter</a></h5></li>
 
                                 <li><h5><a href="https://shaikh-abrar-kabir.github.io/Automatic-Light-Controller/" target="_blank">Automatic Light Controller</a></h5></li>
+
+                              </div>
 
                </ul>
                         
@@ -524,7 +553,7 @@ button {
                         
 
 
-<li><h4><a href="https://shaikh-abrar-kabir.github.io/Rectifier/" target="_blank">230V(p) AC to 15V DC converter using PSPICE</a></h4></li>
+
 
            <li><h3><a href="https://drive.google.com/open?id=13T1kb-Wc_CIYf4ca5hpg3UkBRmkl9afp" target="_blank">Quartus (Verilog HDL)</a></h3>
 		   
@@ -622,6 +651,65 @@ function change2()
     var elem1 = document.getElementById("myButton1");
     var elem2 = document.getElementById("myButton2");
     var x = document.getElementById("myDIV");
+    elem2.style.display = "none";
+    elem1.style.display = "block";
+    x.style.display = "none";
+    
+}
+
+function change1m()
+{
+    var elem1 = document.getElementById("myButton1m");
+    var elem2 = document.getElementById("myButton2m");
+    var x = document.getElementById("myDIVm");
+    elem1.style.display = "none";
+    elem2.style.display = "block";
+    x.style.display = "block";   
+}
+function change2m()
+{
+    var elem1 = document.getElementById("myButton1m");
+    var elem2 = document.getElementById("myButton2m");
+    var x = document.getElementById("myDIVm");
+    elem2.style.display = "none";
+    elem1.style.display = "block";
+    x.style.display = "none";
+    
+}
+function change1mg()
+{
+    var elem1 = document.getElementById("myButton1mg");
+    var elem2 = document.getElementById("myButton2mg");
+    var x = document.getElementById("myDIVmg");
+    elem1.style.display = "none";
+    elem2.style.display = "block";
+    x.style.display = "block";   
+}
+function change2mg()
+{
+    var elem1 = document.getElementById("myButton1mg");
+    var elem2 = document.getElementById("myButton2mg");
+    var x = document.getElementById("myDIVmg");
+    elem2.style.display = "none";
+    elem1.style.display = "block";
+    x.style.display = "none";
+    
+}
+
+function change1a()
+{
+    var elem1 = document.getElementById("myButton1a");
+    var elem2 = document.getElementById("myButton2a");
+    var x = document.getElementById("myDIVa");
+    elem1.style.display = "none";
+    elem2.style.display = "block";
+    x.style.display = "block";   
+}
+function change2a()
+{
+    var elem1 = document.getElementById("myButton1a");
+    var elem2 = document.getElementById("myButton2a");
+    var x = document.getElementById("myDIVa");
     elem2.style.display = "none";
     elem1.style.display = "block";
     x.style.display = "none";

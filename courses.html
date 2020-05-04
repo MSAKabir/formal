@@ -26,14 +26,7 @@ body {
 
 }
 
-.topnav a {
-  float: left;
-  color: rgb(200,200,200);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
+
 
 .topnav a:hover, .dropbtn{
   background-color:  rgb(0,20,2);
@@ -53,9 +46,6 @@ body {
 
 
 
-.topnav .icon {
-  display: none;
-}
 
 .pro a{
   color:rgb(80,80,120);
@@ -80,11 +70,31 @@ body {
 
 
 
+.topnav a {
+  float: left;
+  color: rgb(200,200,200);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  height: 23px;
+}
 
-@media screen and (max-width: 1200px) {
+.topnav .icon {
+  display: none;
+  height: 23px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1300px) {
   .topnav a:not(:nth-child(5)),  .dropbtn {
-  	
-  	display: none;
+    
+    display: none;
   }
   .topnav a.icon {
     float: right;
@@ -92,7 +102,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
   .topnav.responsive {position: fixed;top:0;}
   .topnav.responsive .icon {
     position: absolute;
@@ -104,14 +114,26 @@ body {
     display: block;
     text-align: left;
   }
-}
+  }
 
-@media screen and (max-width: 700px) {
+
+@media screen and (max-width: 800px) {
 body {
 
   font-size: 11px;
 }
+.topnav a{
+
+  padding: 12px 14px;
+  font-size: 13px;
+  height: 15px;
 }
+.topnav .icon {
+  height: 15px;
+}
+}
+
+
   
 
 

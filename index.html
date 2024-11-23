@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>About Me</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type = "image/x-icon" href = "home.png">
+  <link rel="stylesheet" type="text/css" href="common.css">
+
+
+
+<style>
+
+
+body {
+  margin: 0;
+  font-family: Times new roman;
+  font-size: 20px;
+}
+
+
+
+::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(150,150,150,0.3);
+  border-radius: 10px;
+  background-color: rgb(150,150,150);
+}
+
+::-webkit-scrollbar
+{
+ width: 8px;
+  background-color: rgb(150,150,150);
+}
+
+::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: rgb(50,50,50);
+}
+
+
+#cv{
+      margin-top: 5%; 
+      border:1px solid rgb(50,50,0);
+      border-radius: 20px;
+      width: 40%;
+      background: rgba(50,50,0,.1);
+      text-align: center;
+      padding: .5%;
+      margin-bottom: 10%;
+    }
+
+.topnav {
+  top: 0;
+  position: fixed; 
+  overflow: hidden;
+  background-color: rgb(50,50,0);
+  width: 100%;
+
+}
+
+
+
+.topnav a:hover, .dropbtn{
+  background-color:  rgb(0,20,2);
+  color:rgb(150,150,100);
+}
+
+
+.topnav a.active {
+  background-color: rgb(150,150,100);
+  color: rgb(20,20,20);
+}
+
+
+.pro{
+  margin-top: 70px;
+  margin-right: 1%;
+
+}
+
+
+
+
+
+img {
+  float: left;
+  width: 100%;
+}
+
+
+
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column1 {
+  flex: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.column2 {
+  flex: 70%;
+  padding: 10px;
+  /*height: 300px;*/  /*Should be removed. Only for demonstration */
+}
+
+
+.pro a{
+  color:rgb(80,80,120);
+  text-decoration: none;
+}
+.pro a:hover{
+   color:rgb(80,80,120);
+  text-decoration: underline;
+}
+.pro a:visited{
+  color:rgb(80,80,120);
+  text-decoration: none;
+}
+.pro a:active{
+  color:rgb(80,80,120);
+  text-decoration: none;
+}
+
+
+
+
+.topnav a {
+  float: left;
+  color: rgb(200,200,200);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  height: 23px;
+}
+
+.topnav .icon {
+  display: none;
+  height: 23px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1300px) {
+  .topnav a:not(:nth-child(1)),  .dropbtn {
+  	
+  	display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .topnav.responsive {
+    position: fixed;
+    top:0;
+    /* max-height: 200px; */
+    overflow-y: auto;
+  }
+  #myTopnav{
+
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  }
+
+
+
+@media screen and (max-width: 800px) {
+body {
+
+  font-size: 11px;
+}
+ #cv{
+      
+      width: 70%;
+      padding-top: 1%;
+      padding-bottom: 1.5%;
+
+    }
+.topnav a{
+
+  padding: 12px 14px;
+  font-size: 13px;
+  height: 15px;
+}
+.topnav .icon {
+  padding-top: 10px;
+  height: 17px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+ </head>
+
+ <body style="background-color: rgb(255,255,240);color: rgb(56,0,0);" >
+
+
+
+<div class="topnav" id="myTopnav">
+      
+<a class = "active" href="">About Me</a>
+
+<a href="research">Research Experience</a>
+
+<a href="projects">Projects</a>
+
+<a href="skills">Software & Coding Skills</a>
+
+<a href="courses">Courses Conducted</a>
+
+<a href = "awards">Awards & Achievements</a>
+
+<a href="contact">Contact</a>
+
+<a onmouseover="this.style.backgroundColor='rgb(0,0,0)'" onmouseout="this.style.backgroundColor=''" style = "color: rgb(150,170,170)" id="demo" href="switch" target="_blank">Switch</a>
+<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+
+</div>
+
+
+<div class = "pro">
+
+  <h1><center>Md Shaikh Abrar Kabir</center></h1>
+
+  <div class="row">
+    <div class="column1">
+      <p><img src="pp2.png"></p>
+    </div>
+    <div class="column2" >
+
+      <h1><u>About me</u></h1>
+
+      <p><h4 style="text-align: justify;">
+        Presently I'm working as an assistant professor in the department of Electrical and Electronic Engineering at Ahsanullah University of Science and Technology (AUST). I have completed my B.Sc. and M.Sc. in EEE from AUST. I am an enthusiastic learner. My avidity towards learning about new technologies and developing software has compelled me to master different programming languages. I have plans to go for higher studies in a top ranked foreign university to enhance my knowledge and advance in my career.
+
+      <h1><u>Educational Background</u></h1>
+
+      <p><h4 style="text-align: justify;">Completed M.Sc. Engg. from <a href="http://www.aust.edu/" target="_blank" style="">Ahsanullah University of Science and Technology</a>.
+      <a href="M.Sc.Result.pdf" target="_blank" style="width:80%">Obtained CGPA 4.000 out of 4.000</a>.</h4></p>
+
+
+      <p><h4 style="text-align: justify;">Completed B.Sc. Engg. from <a href="http://www.aust.edu/" target="_blank" style="">Ahsanullah University of Science and Technology</a>.
+      Obtained CGPA 3.945 out of 4.000 (Class Position: <a href="B.Sc.Result.jpg" target="_blank" style="width:80%">1st out of 142 students</a>, Batch Position: <a href="https://drive.google.com/file/d/1mcqbRH2ljRXjuDNGLp3YOiBY5aOis3Gb/view" target="_blank" style="width:80%">1st out of 773 students</a>).</h4></p>
+
+
+      <p><h4 style="text-align: justify;">Completed HSC from <a href="http://ndc.edu.bd/" target="_blank" style="">Notre Dame College</a>. Obtained GPA 5.00 out of 5.00.</h4></p>
+
+
+      <p><h4 style="text-align: justify;">Completed SSC from <a href="https://sghscdhaka.edu.bd/" target="_blank" style="">St. Gregory's High School & College</a>. Obtained GPA 5.00 out of 5.00.</h4></p>
+
+      <div id = "cv">
+      <h2><a href="https://drive.google.com/file/d/1Me0E7tikfarqFhCpCHOHs9ks_FDTkq1T/view?usp=sharing" target="_blank">Curriculum Vitae</a></h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<script>
+
+
+function Switch() {
+  var a;
+   a = document.getElementById('demo');
+  var txt = prompt("Press ' 1 ' for Google Sites or ' 2 ' for Casual View", "1");
+ 
+  if (txt === "2") {
+     //var r = confirm("Switch to Formal View ? "); 
+    //if(r == true){
+   a.href = "https://msakabir.github.io/casual/";
+  //}
+}
+  else if (txt === "1") {
+   //var r = confirm("Switch to Google Sites View ? "); 
+    //if(r == true){
+   a.href = "https://sites.google.com/view/msakabir";
+ // }
+}
+  }
+
+
+
+
+
+
+
+
+  
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+
+
+
+</body>

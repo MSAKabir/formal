@@ -1,0 +1,17 @@
+<h1 style="font-size: 4vw;color: #726E94"><u>Projects</u></h1>                               pro1
+
+<ul style="font-size: 3.5vw;color: #7C6FED">                                                 pro2
+
+<ul style="font-size: 3vw;padding-left: 5%">                                                 pro3
+
+style="list-style-type: lower-greek;font-size: 3vw;padding-left: 5%;padding-right: 10%"      pro4
+
+
+
+
+
+
+
+style="font-size: 3vw; padding-left: 100px"                                                  prorc1
+
+style="font-size: 3vw;padding-left: 50%"                                                     prorc2
